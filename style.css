@@ -5,15 +5,27 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    list-style: none;
+    color: black;
 }
 :root{
     --red: #F06849;
 }
 
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    gap: 5rem;
+}
+
 #logo{
     font-weight: 700;
     color: var(--red);
-}
-span{
-    color: black;
+    font-size: 2rem;
 }
