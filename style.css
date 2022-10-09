@@ -10,22 +10,46 @@
 }
 :root{
     --red: #F06849;
+    --gray: #ccc;
 }
 
 #navigation{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
+    padding: 10px 3rem;
+    box-shadow: 0 0.1rem 0.5rem var(--gray);
 }
 
-ul{
+#navigation ul{
     display: flex;
-    gap: 5rem;
+    gap: 4.5rem;
 }
 
 #logo{
     font-weight: 700;
     color: var(--red);
-    font-size: 2rem;
+    font-size: 1.7rem;
+}
+
+.menu-item:hover{
+    color: var(--red);
+    cursor: pointer;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 22%;
+    background-color: black;
+    margin: 5px auto;
+}
+
+box-icon{
+    cursor: pointer;
 }
