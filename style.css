@@ -15,6 +15,7 @@ body{
 
 :root{
     --red: #F06849;
+    --darker-red: #f15634;
     --gray: #ccc;
 }
 
@@ -80,13 +81,24 @@ body{
     margin-bottom: 1rem;
     line-height: 3.5rem;
 }
+#main-text p{
+    margin-bottom: 4rem;
+}
+
 
 #main-img img{
     width: 100%;
 }
 
-
-
+#order-btn{
+    background-color: var(--darker-red);
+    color: white;
+    padding: 0.7rem 3rem;
+    border-radius: 15px;
+}
+#order-btn:hover{
+    background-color: var(--red);
+}
 
 
 box-icon{
