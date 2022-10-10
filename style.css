@@ -8,17 +8,25 @@
     list-style: none;
     color: black;
 }
+
+body{
+    overflow-x: hidden;
+}
+
 :root{
     --red: #F06849;
     --gray: #ccc;
 }
 
 #navigation{
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 3rem;
     box-shadow: 0 0.1rem 0.5rem var(--gray);
+    background-color: white;
 }
 
 #navigation ul{
@@ -50,15 +58,34 @@
 }
 
 .home{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+
+#main-text{
+    width: 100%;
+    max-width: 37rem;
+}
+#main-text h4{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+#main-text h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 3.5rem;
 }
 
 #main-img img{
     width: 100%;
 }
+
+
 
 
 
