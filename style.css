@@ -27,8 +27,6 @@
 }
 
 #logo{
-    font-weight: 700;
-    color: var(--red);
     font-size: 1.7rem;
 }
 
@@ -39,6 +37,7 @@
 
 #menu{
     display: none;
+    cursor: pointer;
 }
 
 .menu-bar{
@@ -46,10 +45,31 @@
     width: 28px;
     height: 3px;
     border-radius: 22%;
-    background-color: black;
+    background-color: var(--red);
     margin: 5px auto;
 }
 
+.home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#main-img img{
+    width: 100%;
+}
+
+
+
 box-icon{
     cursor: pointer;
+}
+
+.red{
+    color: var(--red);
+}
+
+.bold{
+    font-weight: 700;
 }
